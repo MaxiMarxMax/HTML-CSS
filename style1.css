@@ -1,0 +1,93 @@
+:root {
+    --light-gray-bg: #dee0e6;
+    --red: #c76c62;
+    --bleu: #134e6f;
+    --bleu-clair: #1ac0c6;
+    --orange: #f8ba5d;
+  }
+  
+  header {
+    background-color: var(--bleu-clair);
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, var(--bleu-clair), var(--orange), var(--red), var(--bleu)) 1;
+    max-width: 1500px;
+    display: flex;
+    padding: 3rem;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-gray-bg);
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  
+  h2{
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .services-photo img{
+    border-radius: 50%;
+  }
+  
+  .logo {
+    color: var(--red);
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .menu-item a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--light-gray-bg);
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .menu-item a:hover{
+    color: var(--bleu);
+  }
+  
+  aside{
+    border: solid;
+    border-radius: 1rem;
+    background-color: var(--red);
+    padding: 1rem 2rem;
+    display: inline-block;
+    height: 150px;
+  }
+  
+  aside a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--light-gray-bg);
+    transition: color 0.5s ease-in-out;
+  }
+  
+  aside a:hover{
+    color: var(--bleu);
+  }
+  
+  main {
+    max-width: 1500px;
+    padding: 6rem 2rem;
+    display: flex;
+    gap: 2rem;
+    min-width: 100px;
+  }
+  
+  footer{
+    border: solid black 2px;
+    background-color: var(--bleu-clair);
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  ul{
+    list-style-type: none;
+  }

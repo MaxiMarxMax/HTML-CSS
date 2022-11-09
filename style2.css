@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--light-gray-bg);
+  }
+  
+  :root{
+    --red: #c76c62;
+    --light-gray-bg: #dee0e6;
+    --bleu: #134e6f;
+    --bleu-clair: #1ac0c6;
+    --orange: #f8ba5d;
+  }
+  
+  p{
+    max-width: 1500px;
+    display: flex;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .logo {
+    color: var(--red);
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  .menu-item a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--light-gray-bg);
+    transition: color 0.5s ease-in-out;
+  }
+  
+  .menu-item a:hover{
+    color: var(--bleu);
+  }
+  
+  header {
+    background-color: var(--bleu-clair);
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, var(--bleu-clair), var(--orange), var(--red), var(--bleu)) 1;
+    max-width: 1500px;
+    display: flex;
+    padding: 3rem;
+  }
+  
+  footer{
+    border: solid black 2px;
+    background-color: var(--bleu-clair);
+    display: flex;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
+  .prop_val{
+    font-style: italic;
+    color: var(--red);
+  }
+
+  .TAB{
+    border: medium solid black;
+    background-color: white;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
+    width: 40px;
+  }
